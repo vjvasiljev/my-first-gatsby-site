@@ -1,19 +1,12 @@
-import * as React from 'react'
+import * as React from "react";
+import Layout from "../components/layout";
 
 const indexPage = () => {
   return (
-    <main>
-      <title>
-        Home Page
-      </title>
-      <h1>
-        Welcome to my Gatsby site!
-      </h1>
-      <p>
-        I'm making this by following the gatsby tutorial
-      </p>
-    </main>
-  )
-}
+    <Layout pageTitle={"Home page"}>
+      <p>I'm making this by following the gatsby tutorial</p>
+    </Layout>
+  );
+};
 
-export default indexPage
+export default indexPage;
